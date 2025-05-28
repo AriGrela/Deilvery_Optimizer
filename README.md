@@ -3,8 +3,9 @@
 **Proyecto UTN Programacion 2025** que implementa QuickSort, Merge Sort y Búsqueda Binaria para optimizar rutas de delivery, validando su eficiencia con datos simulados.
 
 ## 📂 Estructura del Proyecto
-📦
- delivery_optimizer/
+
+```markdown
+📦delivery_optimizer/
 ├── 📂 data/ # Datasets de prueba
 │ ├── 📄 pedidos_100.json # 100 pedidos
 │ ├── 📄 pedidos_1k.json # 1,000 pedidos
