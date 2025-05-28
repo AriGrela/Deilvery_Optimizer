@@ -50,16 +50,18 @@ Salida en consola:
 === Resultados ===
 - Búsqueda binaria: Pedido en zona B10 encontrado en índice 427 (13 comparaciones)
 - Tiempos de ordenamiento:
+    ```bash
   100 pedidos: QuickSort=0.0023s | MergeSort=0.0031s
   1000 pedidos: QuickSort=0.0256s | MergeSort=0.0302s
   10000 pedidos: QuickSort=0.3120s | MergeSort=0.2945s
 
 ## 📊 Métricas Analizadas
-
+```markdown
 Algoritmo	Complejidad	Estabilidad	Mejor caso
 QuickSort	O(n log n)	No	Datos aleatorios
 MergeSort	O(n log n)	Sí	Datos parcialmente ordenados
 Búsq. Binaria	O(log n)	-	Listas ordenadas
+```
 
 ## 📝 Notas
 
