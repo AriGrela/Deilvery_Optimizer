@@ -4,24 +4,6 @@
 
 ## 📂 Estructura del Proyecto
 
-delivery_optimizer/
-├── data/ # Datasets de prueba
-│ ├── pedidos_100.json # 100 pedidos de ejemplo
-│ ├── pedidos_1k.json # 1,000 pedidos
-│ └── pedidos_10k.json # 10,000 pedidos
-│
-├── modules/ # Módulos de algoritmos
-│ ├── sorting.py # QuickSort y MergeSort
-│ ├── search.py # Búsqueda binaria
-│ └── validation.py # Validación de datos
-│
-├── results/ # Resultados gráficos
-│ ├── comparativa.png # Comparación de algoritmos
-│ └── comparativa_barras.png
-│
-├── main.py # Punto de entrada
-└── README.md # Este archivo
-
 
 ## 🛠️ Requisitos
 
@@ -30,7 +12,7 @@ delivery_optimizer/
   ```bash
   pip install matplotlib
 
-## ▶️ Ejecución
+▶️ Ejecución
 
 Generar datasets (opcional):
 
@@ -53,14 +35,14 @@ Salida en consola:
   1000 pedidos: QuickSort=0.0256s | MergeSort=0.0302s
   10000 pedidos: QuickSort=0.3120s | MergeSort=0.2945s
 
-## 📊 Métricas Analizadas
+📊 Métricas Analizadas
 
 Algoritmo	Complejidad	Estabilidad	Mejor caso
 QuickSort	O(n log n)	No	Datos aleatorios
 MergeSort	O(n log n)	Sí	Datos parcialmente ordenados
 Búsq. Binaria	O(log n)	-	Listas ordenadas
 
-## 📝 Notas
+📝 Notas
 
 Los datasets simulados incluyen: id, distancia, zona, hora y prioridad.
 
