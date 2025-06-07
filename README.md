@@ -18,7 +18,7 @@ https://youtu.be/jS7W-lFHjM0
 ## 📂 Estructura del Proyecto
 
 ```markdown
-📦delivery_optimizer/
+📦Caso Practico - Delivery Optimizer/
 ├── 📂 data/ # Datasets de prueba
 │ ├── 📄 pedidos_100.json # 100 pedidos
 │ ├── 📄 pedidos_1k.json # 1,000 pedidos
