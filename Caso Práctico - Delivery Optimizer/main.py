@@ -1,9 +1,14 @@
 import json
 import time
 import matplotlib.pyplot as plt
+import os
+import sys
 from modules.sorting import quicksort, mergesort
 from modules.search import busqueda_binaria
 from modules.validation import validar_pedido
+
+# 🔧 Asegurarse de que el directorio de trabajo sea donde está main.py
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Configuración
 archivos = {
