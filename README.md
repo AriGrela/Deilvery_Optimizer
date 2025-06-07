@@ -10,6 +10,10 @@ Comisión: 3
 
 Implementación de QuickSort, Merge Sort y Búsqueda Binaria para optimizar rutas de delivery, validando su eficiencia con datos simulados.
 
+## 🔴 Video de Youtube:
+
+https://youtu.be/jS7W-lFHjM0
+
 
 ## 📂 Estructura del Proyecto
 
