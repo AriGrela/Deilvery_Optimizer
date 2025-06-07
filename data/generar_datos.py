@@ -15,6 +15,6 @@ def generar_pedidos(n):
     ]
 
 # Generar los pedidos que quieras y los guarda +
-with open("data/pedidos_10k.json", "w") as f:
-    json.dump(generar_pedidos(10000), f, indent=4)
+with open("data/pedidos_1k.json", "w") as f:
+    json.dump(generar_pedidos(1000), f, indent=4)
 

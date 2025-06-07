@@ -1,6 +1,15 @@
 # 🚀 Optimización de Delivery con Algoritmos de Ordenamiento y Búsqueda
 
-**Proyecto UTN Programacion 2025** que implementa QuickSort, Merge Sort y Búsqueda Binaria para optimizar rutas de delivery, validando su eficiencia con datos simulados.
+## Integrantes del grupo:
+
+Ariel Grela | Matías Higa
+
+Comisión: 3
+
+## Objetivo: 
+
+Implementación de QuickSort, Merge Sort y Búsqueda Binaria para optimizar rutas de delivery, validando su eficiencia con datos simulados.
+
 
 ## 📂 Estructura del Proyecto
 
@@ -48,12 +57,12 @@ Gráficos guardados en /results/
 Salida en consola:
 
 === Resultados ===
-- Búsqueda binaria: Pedido en zona B10 encontrado en índice 427 (13 comparaciones)
+- Búsqueda binaria: Pedido en zona B10 encontrado en índice 2967 (6 comparaciones)
 - Tiempos de ordenamiento:
     ```bash
-  100 pedidos: QuickSort=0.0023s | MergeSort=0.0031s
-  1000 pedidos: QuickSort=0.0256s | MergeSort=0.0302s
-  10000 pedidos: QuickSort=0.3120s | MergeSort=0.2945s
+  100 pedidos: QuickSort=0.0000s | MergeSort=0.0000s
+  1000 pedidos: QuickSort=0.0030s | MergeSort=0.0100s
+  10000 pedidos: QuickSort=0.0069s | MergeSort=0.0197s
 
 ## 📊 Métricas Analizadas
 ```markdown
